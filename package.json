@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "dev": "nuxt example",
+    "dev": "yarn build && nuxt example",
     "build": "npx tsc",
     "lint": "eslint --fix ./src/index.ts",
     "postinstall": "yarn build"
