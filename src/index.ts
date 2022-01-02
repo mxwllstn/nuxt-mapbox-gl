@@ -32,7 +32,7 @@ export default <Module>function () {
 
     /* add mapbox plugin that injects as this.$mapbox */
     this.addPlugin({
-      src: path.resolve(__dirname, 'plugin.js'),
+      src: path.resolve(__dirname, '../dist/plugin.js'),
       fileName: 'mapbox.js'
     })
   } catch (error) {
