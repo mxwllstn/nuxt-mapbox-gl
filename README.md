@@ -8,7 +8,7 @@ nuxt module that adds required **mapbox** options and injects **mapbox** into `$
 # install dependencies
 $ yarn install
 
-# run example dependencies
+# run example app with module
 $ yarn dev
 
 # build module
