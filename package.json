@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mxwllstn/nuxt-d3.git"
+    "url": "https://github.com/mxwllstn/nuxt-mapbox.git"
   },
   "dependencies": {
     "mapbox-gl": "^2.6.1"
@@ -23,6 +23,7 @@
     "@nuxt/types": "^2.15.8",
     "@nuxtjs/eslint-config": "^8.0.0",
     "@nuxtjs/module-test-utils": "^1.6.3",
+    "@types/mapbox-gl": "^2.6.0",
     "@types/node": "^16.11.11",
     "@typescript-eslint/eslint-plugin": "^4.6.1",
     "@typescript-eslint/parser": "^4.6.1",
