@@ -13,7 +13,7 @@ export default <Module>function () {
 
   try {
     /* add mapbox css */
-    nuxt.options.css = ['mapbox-gl/dist/mapbox-gl.css', ...nuxt.options.css]
+    nuxt.options.css.unshift('mapbox-gl/dist/mapbox-gl.css')
 
     const { accessToken } = nuxt.options.mapbox || {}
     if (!accessToken) {
