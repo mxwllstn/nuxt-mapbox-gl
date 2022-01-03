@@ -1,5 +1,5 @@
 import { Module } from '@nuxt/types'
-import path from 'path'
+import { resolve } from 'path'
 
 declare global {
   interface Console {
@@ -13,9 +13,7 @@ export default <Module>function () {
 
   try {
     /* add mapbox css */
-    nuxt.hook('ready', () => {
-      nuxt.options.css.unshift('mapbox-gl/dist/mapbox-gl.css')
-    })
+    nuxt.options.css.splice(0, 0, 'mapbox-gl/dist/mapbox-gl.css')
 
     const { accessToken } = nuxt.options.mapbox || {}
     if (!accessToken) {
@@ -34,7 +32,7 @@ export default <Module>function () {
 
     /* add mapbox plugin that injects as this.$mapbox */
     this.addPlugin({
-      src: path.resolve(__dirname, '../dist/plugin.js'),
+      src: resolve(__dirname, '../dist/plugin.js'),
       fileName: 'mapbox.js'
     })
   } catch (error) {
