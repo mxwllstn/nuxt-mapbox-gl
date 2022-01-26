@@ -1,15 +1,15 @@
-# nuxt-mapbox
+# nuxt-mapbox-gl
 
 nuxt module that adds required **mapbox** options and injects **mapbox** into `$root` & `context` (accessible with `$this.mapbox`)
 
 ## Install
 Use `yarn` to install the module
 ```bash
-yarn add nuxt-d3
+yarn add nuxt-mapbox-gl
 ```
 Or use `npm` to install the module
 ```bash
-npm install nuxt-d3
+npm install nuxt-mapbox-gl
 ```
 
 ## Usage
