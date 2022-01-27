@@ -1,5 +1,5 @@
 # nuxt-mapbox-gl
-[![Version](https://img.shields.io/npm/v/nuxt-mapbox-gl-js.svg)](https://www.npmjs.org/package/nuxt-mapbox-gl)
+[![Version](https://img.shields.io/npm/v/nuxt-mapbox-gl.svg)](https://www.npmjs.org/package/nuxt-mapbox-gl)
 
 Nuxt module that adds required **mapbox-gl** options and injects **mapbox-gl** into `$root` & `context` (accessible with `$this.mapbox`)
 
