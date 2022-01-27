@@ -1,6 +1,6 @@
 {
   "name": "nuxt-mapbox-gl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Max Stein <maxwell.stein@gmail.com> (https://maxstein.net",
@@ -17,11 +17,11 @@
     "url": "https://github.com/mxwllstn/nuxt-mapbox-gl.git"
   },
   "dependencies": {
+    "@nuxt/types": "^2.15.8",
     "@types/mapbox-gl": "^2.6.0",
     "mapbox-gl": "^2.6.1"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.8",
     "@nuxtjs/eslint-config": "^8.0.0",
     "@nuxtjs/module-test-utils": "^1.6.3",
     "@types/node": "^16.11.11",

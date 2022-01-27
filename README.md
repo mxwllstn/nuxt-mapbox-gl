@@ -1,6 +1,6 @@
 # nuxt-mapbox-gl
 
-nuxt module that adds required **mapbox** options and injects **mapbox** into `$root` & `context` (accessible with `$this.mapbox`)
+nuxt module that adds required **mapbox-gl** options and injects **mapbox-gl** into `$root` & `context` (accessible with `$this.mapbox`)
 
 ## Install
 Use `yarn` to install the module
